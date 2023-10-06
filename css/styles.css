@@ -621,7 +621,7 @@ a {
 .modal-form-btn {
     display: block;
     min-width: 169px;
-    height: 24px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -688,6 +688,7 @@ a {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     
 }
 
@@ -799,10 +800,10 @@ a {
 }
 
 .modal-checkbox-span {
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.40);
+    display: inline-flex;
     border-radius: 2px;
     margin-right: 8px;
     align-items: center;
